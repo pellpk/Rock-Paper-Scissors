@@ -42,3 +42,5 @@ elif input == "paper":
 
 else:
     print("Invalid, please try again.")    
+
+# ^^^^^^ hello faggot! please make the whole thing loop if the user doesnt write "rock, paper, scissors" 
