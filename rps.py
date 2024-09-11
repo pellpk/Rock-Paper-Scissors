@@ -23,7 +23,7 @@ def gameLoop():
     # logic to decide winner, repeats gameLoop if results in a tie
     if userAnswer == "rock":
         if compAnswer == "rock":
-            print("Tie! lets go againd!\n")
+            print("Tie! lets go again!\n")
             gameLoop()
             return
         elif compAnswer == "paper":
@@ -37,7 +37,7 @@ def gameLoop():
         elif compAnswer == "paper":
             print("You win! :")
         elif compAnswer == "scissors":
-            print("Tie! lets go againd!\n")
+            print("Tie! lets go again!\n")
             gameLoop()
             return
         
@@ -45,7 +45,7 @@ def gameLoop():
         if compAnswer == "rock":
             print("You win!")
         elif compAnswer == "paper":
-            print("Tie! lets go againd!\n")
+            print("Tie! lets go again!\n")
             gameLoop()
         elif compAnswer == "scissors":
             print("You lose!")
